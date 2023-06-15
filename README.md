@@ -2,7 +2,7 @@
 Some tools
 
 ## ConvertMarkdownImageLinks2imgur
-### Convert every image link in the Markdown file to Imgur links.
+### Convert every image link in your Markdown file to Imgur links.
 
 1. fill your Imgur API client_id and client_secret in code below.
 ```
