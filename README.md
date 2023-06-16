@@ -35,4 +35,4 @@ python color_extract.py image.jpg
 3. Result will save as image_colorCode.jpg
 
 Output:
-> ![Imgur](https://i.imgur.com/eyekLvn.jpg)
+![Imgur](https://i.imgur.com/eyekLvn.jpg)
