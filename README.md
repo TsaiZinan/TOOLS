@@ -4,13 +4,17 @@ Some tools
 ## ConvertMarkdownImageLinks2imgur
 ### Convert every image link in your Markdown file to Imgur links.
 
-1. fill your Imgur API client_id and client_secret in code below.
+1. Fill your Imgur API client_id and client_secret in code below.
 ```
 client_id = 'Your Client ID'
 client_secret = 'Your Client Secret'
 ```
-2. rename your Markdown file to new_markdown_file.md
-3. run the program
+2. Rename your Markdown file to new_markdown_file.md
+3. Install imgurpython
+```
+pip install imgurpython
+```
+4. Run the program
 ```
 python MarkdownImageLinkConvert2imgur.py
 ```
