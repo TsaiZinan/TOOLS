@@ -71,7 +71,7 @@ conda install -c conda-forge opencv numpy
 ```
 4. Run the program
 ```
-python NASABlueMarbleImageProcess.py
+python NASABlueMarbleImageProcess.py [any 1 of the 8 image file names]
 ```
 
-Attention: It would take up to 20GB of RAM of your conputer, make sure you have enough free RAM.
+Attention: It would take up to 20GB of RAM of your computer, make sure you have enough free RAM.
