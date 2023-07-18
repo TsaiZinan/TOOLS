@@ -57,3 +57,21 @@ python ConvertMarkdownImageLinks2imgur.py
 ```
 
 Due to the speed limit of Imgur, only 50 uploads per IP per hour. You need to change your IP when you see the warning message.
+
+## NASA Blue Marble Image Process
+### Combine all 8 seperated NASA Blue Marble Images(21600 x 21600, due to the resaulation limit of image file) into one(86400 x 43200).
+
+Example image: https://visibleearth.nasa.gov/images/73884/november-blue-marble-next-generation-w-topography-and-bathymetry
+
+1. Download all 8 part images(A1, A2, B1, B2, C1, C2, D1, D2) in one folder.
+2. Download NASABlueMarbleImageProcess.py into the same folder.
+3. Install dependent
+```
+conda install -c conda-forge opencv numpy
+```
+4. Run the program
+```
+python NASABlueMarbleImageProcess.py
+```
+
+Attention: It would take up to 20GB of RAM of your conputer, make sure you have enough free RAM.
